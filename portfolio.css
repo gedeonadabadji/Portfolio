@@ -162,4 +162,13 @@ transform: rotate(180deg);
         height: 90vh;
         margin-top: 5rem;
     }
+    .portfolio-carousel .img-item img{
+        width: 80%;
+    }
+}
+
+@media (max-width:444px){
+    .portfolio-carousel .img-item img{
+        width: 30%;
+    }
 }
