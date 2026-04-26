@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gedeon ADABADJI</title>
+    <link rel="icon" href="./shutter.png" type="image/png" color="#60CCEC">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "twSWC4mj4fxij9eQ2",
+            });
+        })();
+   </script>
+</head>
+<body>
+        <!--Header-->
+    <header>
+        <a href="" class="logo">Gedeon.</a>
+        <i class='bx bx-menu' id="menuIcon"></i>
+
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./services.html">Service</a>
+            <a href="./resume.html">Resume</a>
+            <a href="./portfolio.html">Portfolio</a>
+            <a href="./contact.html"  class="active">Contact</a>
+        </nav>
+    </header>
+
+    <!--Section Contact-->
+    <section class="contact active">
+        <div class="contact-container">
+            <div class="contact-box">
+                <h2>Travaillons ensemble</h2>
+                <p class="desc">Étudiant en informatique industrielle, développeur web et designer, je conçois des solutions modernes qui allient technologie, performance et expérience utilisateur.<br>
+
+Que ce soit pour un site web, une interface ou un projet technique, je vous accompagne de la conception à la réalisation avec une approche structurée et innovante.</p>
+                <div class="contact-detail">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <div class="detail">
+                        <p>Phone</p>
+                        <p>(+228) 90 77 86 33</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div class="detail">
+                        <p>Email</p>
+                        <p>gedeonadabadji3@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="detail">
+                        <p>Location</p>
+                        <p>TOGO - Lomé</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <div class="detail">
+                        <p>Whatsapp</p>
+                        <a href="https://wa.me/qr/BHX4KRJ6PJDFB1">Click and send a Message</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-box">
+                <form action="" id="contact-form">
+                    <h2 class="heading">Contact <span>Me !</span></h2>
+                    <div class="field-box">
+                        <input type="text" id="name" name="name"  placeholder="Full name" required>
+                        <input type="text" id="subject" name="subject"  placeholder="Email Subject" required>
+                        <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn" onclick="SendBtn()">send <i class="fa-solid fa-paper-plane"></i> </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!--Custom with js-->
+    </script>
+    <script src="/script.js"></script>
+</body>
+</htm
