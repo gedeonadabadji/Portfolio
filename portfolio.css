@@ -153,13 +153,13 @@ transform: rotate(180deg);
 }
 @media (max-width:776px){
     .portfolio-container{
-    margin-top: 100rem;
+        height: 100%;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 2rem;
     }
     .portfolio{
-        width: 100vh;
+        height: 90vh;
         margin-top: 5rem;
     }
 }
