@@ -1,7 +1,7 @@
 const resumeBtns = document.querySelectorAll('.resume-btn');
-const menuIcon = document.querySelector('#menuIcon');
+const menuIcon = document.querySelector('#menu-icon');
 const navBar = document.querySelector('header nav');
-
+console.log(menuIcon)
 menuIcon.addEventListener('click', () => {
     menuIcon.classList.toggle('bx-x');
     navBar.classList.toggle('active');

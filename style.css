@@ -58,7 +58,7 @@ nav a.active {
     color: var(--main-color);
 }
 
-#menuIcon{
+#menu-icon{
     font-size: 4rem;
     display: none;
 }
